@@ -15,4 +15,14 @@ public class Stringdemotest {
         assertEquals(1, Stringdemo.add("1"));
     }
 
+    @Test
+    public void testTwoNumbers() {
+        assertEquals(3, Stringdemo.add("1,2"));
+    }
+
+
+    @Test
+    public void testMultipleNumbers() {
+        assertEquals(10, Stringdemo.add("1,2,3,4"));
+    }
 }
