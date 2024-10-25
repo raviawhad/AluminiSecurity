@@ -8,6 +8,7 @@ class AlumniPortalApplicationTests {
 
     @Test
     void contextLoads() {
+
     }
 
 }
