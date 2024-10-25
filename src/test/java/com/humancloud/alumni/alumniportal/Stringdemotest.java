@@ -10,6 +10,9 @@ public class Stringdemotest {
     public void testEmptyString() {
         assertEquals(0, Stringdemo.add(""));
     }
-
+    @Test
+    public void testSingleNumber() {
+        assertEquals(1, Stringdemo.add("1"));
+    }
 
 }
